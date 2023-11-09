@@ -1,0 +1,21 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width :100%;
+}
+
+.product-list .item {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid silver;
+    padding: 12px;
+}
+
+.product-list .item-image {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
